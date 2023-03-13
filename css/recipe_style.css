@@ -1,3 +1,5 @@
+@import "animations.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +14,10 @@ body {
 
     display: flex;
     flex-direction: column;
+    
+    animation: showAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
 }
 
 h1 {
@@ -55,6 +61,12 @@ a:hover {
     font-size: larger;
     
     letter-spacing: 2px;
-    
+
     transition: all .5s;
+}
+
+.animation {
+    animation: showAnimation;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
 }

@@ -1,0 +1,10 @@
+@keyframes showAnimation {
+    0% {
+        translate: -49vw;
+        opacity: 0;
+    }
+    100% {
+        translate: 0vw;
+        opacity: 1;
+    }
+}
