@@ -35,11 +35,6 @@ h1:hover {
     transition: all 0.5s;
 }
 
-ul {
-    outline: 1px solid #312828;
-    padding: .2em;
-}
-
 ul li {
     list-style-type: none;
     text-align: center;
